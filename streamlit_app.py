@@ -13,7 +13,7 @@ if button:
     with st.spinner():
 
         response_json = requests.post(
-            "https://abidlabs-speak.hf.space/run/predict",
+            "https://charly-text-to-speech.hf.space/run/predict",
             json={
                 "data": [
                     inp_text,
